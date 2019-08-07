@@ -41,7 +41,7 @@ class App extends React.Component {
   openZeitPopup = () =>
   {
     var windowObjectReference = window.open(
-      "https://deploy.now.sh/?repo=" + this.state.gitURL,
+      "https://zeit.co/new#import-github",
       "DescriptiveWindowName",
       "top=150,left=500,height=500,width=500,resizable,scrollbars,status"
     );
@@ -76,11 +76,11 @@ class App extends React.Component {
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku"  className='pointer' />
 </div>
   </Col>
-  {/* <Col md='2' className='margin'>
+  <Col md='2' className='margin'>
   <div onClick={this.openZeitPopup}>
   <img src="https://deploy.now.sh/static/button.svg" alt="Deploy to Zeit" className='pointer' />
 </div>
-  </Col> */}
+  </Col>
 </Row>
 <Row>
 <Col md='10'>
