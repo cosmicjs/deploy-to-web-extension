@@ -1,4 +1,5 @@
 # Deploy to Web
+Install the Extension on Cosmic JS [here](https://cosmicjs.com/extensions/deploy-to-web).
 
 ## Running server:
 
