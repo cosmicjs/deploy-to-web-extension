@@ -52,7 +52,7 @@ class App extends React.Component {
 <div className='container'>
 <Row>
 <Col md='12' className='margin'>
-<h2>Deploy to Netlify and Heroku</h2>
+<h2>Deploy to Netlify, Heroku, and Now</h2>
 </Col>
 </Row>
 <Row>
