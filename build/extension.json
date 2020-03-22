@@ -1,5 +1,6 @@
 {
     "title": "Deploy to Web",
     "font_awesome_class": "fa-rocket",
-    "image_url": "https://cosmic-s3.imgix.net/5ac2c160-b543-11e9-ab6e-1f118a5702a6-cover.jpg"
+    "image_url": "https://cosmic-s3.imgix.net/cc5647e0-c5e5-11e9-8343-8b95f624368a-deploy-to-web.jpg",
+    "repo_url": "https://github.com/cosmicjs/deploy-to-web-extension"
   }

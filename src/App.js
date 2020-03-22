@@ -23,27 +23,21 @@ class App extends React.Component {
   }
 
   openNetlifyPopup = () => {
-    var windowObjectReference = window.open(
-      "https://app.netlify.com/start/deploy?repository=" + this.state.gitURL,
-      "DescriptiveWindowName",
-      "top=150,left=500,height=500,width=500,resizable,scrollbars,status"
+    window.open(
+      "https://app.netlify.com/start/deploy?repository=" + this.state.gitURL
     );
   }
 
   openHerokuPopup = () =>
   {
-    var windowObjectReference = window.open(
-      "https://heroku.com/deploy?template=" + this.state.gitURL,
-      "DescriptiveWindowName",
-      "top=150,left=500,height=500,width=500,resizable,scrollbars,status"
+    window.open(
+      "https://heroku.com/deploy?template=" + this.state.gitURL
     );
   }
   openZeitPopup = () =>
   {
-    var windowObjectReference = window.open(
-      "https://zeit.co/new#import-github",
-      "DescriptiveWindowName",
-      "top=150,left=500,height=500,width=500,resizable,scrollbars,status"
+    window.open(
+      "https://zeit.co/import/project?template=" + this.state.gitURL
     );
   }
 
